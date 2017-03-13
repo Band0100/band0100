@@ -255,8 +255,10 @@
       center: new naver.maps.LatLng(37.8228710, 127.3513150),
       zoom: 10
     };
-    var point = new naver.map.Point(37.8228710, 127.3513150);
-    point.toString(); // '(128,256)'
+    var marker = new naver.maps.Marker({
+      position: new naver.maps.LatLng(37.8228710, 127.3513150),
+      map: map
+  });
     var map = new naver.maps.Map('map', mapOptions);
   </script></div>
 
