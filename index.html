@@ -254,23 +254,23 @@
     <script>
       var position = new naver.maps.LatLng(37.8228710, 127.3513150);
 
-var map = new naver.maps.Map('map', {
-    center: position,
-    zoom: 14
-});
+      var map = new naver.maps.Map('map', {
+        center: position,
+        zoom: 12
+      });
 
-var markerOptions = {
-    position: position,
-    map: map,
-    icon: {
-        url: 'img/map-marker.png',
-        size: new naver.maps.Size(22, 35),
-        origin: new naver.maps.Point(0, 0),
-        anchor: new naver.maps.Point(11, 35)
-    }
-};
+      var markerOptions = {
+        position: position,
+        map: map,
+        icon: {
+          url: 'img/map-marker.png',
+          size: new naver.maps.Size(22, 35),
+          origin: new naver.maps.Point(0, 0),
+          anchor: new naver.maps.Point(11, 35)
+        }
+      };
 
-var marker = new naver.maps.Marker(markerOptions);
+      var marker = new naver.maps.Marker(markerOptions);
     </script>
   </div>
 
