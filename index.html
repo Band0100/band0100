@@ -259,17 +259,10 @@
         zoom: 12
       });
 
-      var markerOptions = {
-        position: position,
-        map: map,
-        icon: {
-          url: 'img/map-marker.png',
-          size: new naver.maps.Size(22, 35),
-          origin: new naver.maps.Point(0, 0),
-          anchor: new naver.maps.Point(11, 35)
-        }
-      };
-      var marker = new naver.maps.Marker(markerOptions);
+      var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(position),
+        map: map
+      });
 
       var contentString = [
     '<div class="iw_inner">',
