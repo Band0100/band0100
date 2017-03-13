@@ -250,17 +250,19 @@
       </div>
     </div>
   </section>
-  <div id="map" style="width:100%;height:400px;"><script>
-    var mapOptions = {
-      center: new naver.maps.LatLng(37.8228710, 127.3513150),
-      zoom: 10
-    };
-    var marker = new naver.maps.Marker({
-      position: new naver.maps.LatLng(37.8228710, 127.3513150),
-      map: map
-  });
-    var map = new naver.maps.Map('map', mapOptions);
-  </script></div>
+  <div id="map" style="width:100%;height:400px;">
+    <script>
+      var mapOptions = {
+        center: new naver.maps.LatLng(37.8228710, 127.3513150),
+        zoom: 10
+      };
+      var map = new naver.maps.Map('map', mapOptions);
+      var marker = new naver.maps.Marker({
+        position: new naver.maps.LatLng(37.8228710, 127.3513150),
+        map: map
+      });
+    </script>
+  </div>
 
   <!-- Footer -->
   <footer>
