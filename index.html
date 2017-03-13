@@ -16,17 +16,20 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- Bootstrap CDN End -->
 
-  <!-- Custom Fonts Start-->
+  <!-- Custom Fonts Start
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <!-- Custom Fonts End-->
 
-  <!-- Theme CSS -->
-  <link href="/css/grayscale1.min.css" rel="stylesheet">
-
+  <!-- Theme CSS Start -->
+  <link href="css/grayscaleV2.min.css" rel="stylesheet">
+  <!-- Theme CSS End -->
+  
+  <!-- Map Start -->
   <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=r3oQeThsGFVSv9iRYNTB"></script>
-
+  <!-- Map End -->
+  
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -255,10 +258,9 @@
       zoom: 10
     };
     var point = new naver.map.Point(37.8228710, 127.3513150);
-    point.toString(); // '(128,256)'
+    point.toString();
     var map = new naver.maps.Map('map', mapOptions);
   </script>
-
 
   <!-- Footer -->
   <footer>
