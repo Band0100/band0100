@@ -229,7 +229,7 @@
   </section>
   <!-- Team Section End -->
 
-  <!-- Download Section -->
+  <!-- Contact Section -->
   <section id="contact" class="content-section text-center">
     <div class="contact-section">
       <div class="container">
@@ -263,29 +263,6 @@
         position: new naver.maps.LatLng(position),
         map: map
       });
-
-      var contentString = [
-    '<div class="iw_inner">',
-    '   <h3>천주교 현리성당</h3>',
-    '   <p>경기도 가평군 조종면 연인산로 5-35 현리천주교회<br/> 경기도 가평군 조종면 현리 240-2<br>',
-    '       <br>',
-    '       031-585-3100 | 천주교 > 성당',
-    '       <a href="http://cafe.daum.net/churchhr" target="_blank">홈페이지/</a>',
-    '   </p>',
-    '</div>'
-].join('');
-
-var infowindow = new naver.maps.InfoWindow({
-    content: contentString
-});
-
-naver.maps.Event.addListener(marker, "click", function(e) {
-    if (infowindow.getMap()) {
-        infowindow.close();
-    } else {
-        infowindow.open(map, marker);
-    }
-});
     </script>
   </div>
 
