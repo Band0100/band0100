@@ -254,13 +254,17 @@
   <div id="map" style="width:100%;height:400px;">
     <script>
       var position = new naver.maps.LatLng(37.8228710, 127.3513150);
-
       var map = new naver.maps.Map('map', {
         center: position,
         draggable: false,
+        pinchZoom: false,
+        scrollWheel: false,
+        keyboardShortcuts: false,
+        disableDoubleTapZoom: true,
+        disableDoubleClickZoom: true,
+        disableTwoFingerTapZoom: true,
         zoom: 12
       });
-
       var marker = new naver.maps.Marker({
         position: new naver.maps.LatLng(position),
         map: map
