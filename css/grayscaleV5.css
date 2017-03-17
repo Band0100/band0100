@@ -22,6 +22,11 @@ section {
   margin-bottom 40px;
 }
 
+.timeline-content {
+  margin-top: 30px;
+  margin-bottom 30px;
+}
+
 .text-muted {
   color: #777777;
 }
