@@ -7,7 +7,12 @@
 body,
 html {
   height: 100%;
-  width: 100%
+  width: 100%;
+}
+
+section {
+  margin-top: 80px;
+  margin-bottom 40px;
 }
 
 .text-muted {
