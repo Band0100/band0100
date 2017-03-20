@@ -17,13 +17,15 @@
   <!-- Bootstrap CDN End -->
 
   <!-- Custom Fonts Start -->
-  <script src="https://use.fontawesome.com/0f35e9f217.js"></script> <!-- Font Awesome CDN -->
+  <script src="https://use.fontawesome.com/0f35e9f217.js"></script>
+  <!-- Font Awesome CDN -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <!-- Custom Fonts End-->
 
   <!-- Theme CSS Start -->
   <link href="css/grayscaleV5.min.css" rel="stylesheet">
+  <link href="css/albumV2.css" rel="stylesheet">
   <!-- Theme CSS End -->
 
   <!-- Map Start -->
@@ -41,7 +43,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-  <!-- Navigation -->
+  <!-- Navigation Start -->
   <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -64,6 +66,9 @@
             <a class="page-scroll" href="#team">Team</a>
           </li>
           <li>
+            <a class="page-scroll" href="#album">Album</a>
+          </li>
+          <li>
             <a class="page-scroll" href="#about">About</a>
           </li>
           <li>
@@ -75,6 +80,7 @@
     </div>
     <!-- /.container -->
   </nav>
+  <!-- Navigation End -->
 
   <!-- Intro Header Start -->
   <header class="intro">
@@ -84,7 +90,7 @@
           <div class="col-md-8 col-md-offset-2">
             <h1 class="brand-heading">Band.0100</h1>
             <p class="intro-text">안녕하세요. 밴드 공백(0100)입니다.</p>
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240510715&amp;color=84898e&amp;auto_play=true&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/240510715&amp;color=84898e&amp;auto_play=true&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=true"></iframe>
             <a href="#team" class="btn btn-circle page-scroll">
               <i class="fa fa-angle-double-down animated"></i>
             </a>
@@ -96,7 +102,7 @@
   <!-- Intro Header End -->
 
   <!-- Team Section Start -->
-  <section id="team" class="bg-light-gray">
+  <section id="team" class="bg-light-gray" align="center">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -108,7 +114,7 @@
 
         <!-- 원형 이미지가 필요할경우 img-circle 속성 추가 -->
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt=""><br/>
             <h4>윤세규</h4>
             <h5 class="text-muted">Drum</h5>
@@ -125,7 +131,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt="">
             <br/>
             <h4>배지훈</h4>
@@ -143,7 +149,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt=""><br/>
             <h4>최슬기</h4>
             <h5 class="text-muted">Guitar</h5>
@@ -160,7 +166,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt=""><br/>
             <h4>양현준</h4>
             <h5 class="text-muted">Base</h5>
@@ -177,7 +183,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt=""><br/>
             <h4>이승진</h4>
             <h5 class="text-muted">Vocal</h5>
@@ -194,7 +200,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt=""><br/>
             <h4>정은빈</h4>
             <h5 class="text-muted">Keyboard</h5>
@@ -211,7 +217,7 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <div class="team-member text-center">
+          <div class="team-member" align="center">
             <img src="img/profile.jpg" width="255" height="255" class="img-responsive" alt=""><br/>
             <h4>오지석</h4>
             <h5 class="text-muted">Recoard Engineer</h5>
@@ -232,8 +238,54 @@
   </section>
   <!-- Team Section End -->
 
+  <!-- Album Section Start -->
+  <section id="album" align="center" class="bg-light-gray">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <br/>
+          <h2 class="section-heading">Album</h2>
+        </div>
+      </div>
+
+      <div class="row">
+
+        <!-- item start -->
+        <a href="https://soundcloud.com/band0100/band0100-demo-ver-1">
+          <div class="cd-case" id="case2">
+            <div class="album-art">
+              <div class="sup pos-tl"></div>
+              <div class="sup pos-tr"></div>
+              <div class="sup pos-bl"></div>
+              <div class="sup pos-br"></div>
+            </div>
+            <div class="spine"></div>
+          </div>
+        </a>
+        <!-- item End -->
+
+        <!-- item start -->
+        <a href="https://soundcloud.com/band0100/band0100-demo-ver">
+          <div class="cd-case" id="case1">
+            <div class="album-art">
+              <div class="sup pos-tl"></div>
+              <div class="sup pos-tr"></div>
+              <div class="sup pos-bl"></div>
+              <div class="sup pos-br"></div>
+            </div>
+            <div class="spine"></div>
+          </div>
+        </a>
+        <!-- item End -->
+
+      </div>
+
+  </section>
+  <!-- Team Section End -->
+
   <!-- About Section Start -->
-  <section id="about">
+  <section id="about" align="center">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -388,8 +440,7 @@
   </footer>
 
   <!-- jQuery CDN-->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA=" crossorigin="anonymous"></script>
-
+  <script src="https://code.jquery.com/jquery-3.2.0.js" integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ=" crossorigin="anonymous"></script>
   <!-- Plugin JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
