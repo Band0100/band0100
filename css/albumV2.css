@@ -1,9 +1,3 @@
-/* Tuned only for Chrome */
-
-
-/* Image courtesy wikipedia */
-
-
 /* Design inspired by http://ruky1024.deviantart.com/art/Plastic-CD-Case-2-sizes-194440543 */
 
 .cd-case {
@@ -78,14 +72,6 @@
   top: 159px;
   left: 160px;
   border-radius: 5px 5px 0 0;
-}
-
-.pos-title {
-  height: 100%;
-  width: 100%;
-  align-content: center;
-  position: relative;
-  z-index: 10;
 }
 
 .spine {

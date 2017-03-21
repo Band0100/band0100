@@ -111,7 +111,6 @@
         </div>
       </div>
       <div class="row">
-
         <!-- 원형 이미지가 필요할경우 img-circle 속성 추가 -->
         <div class="col-sm-3">
           <div class="team-member" align="center">
@@ -240,7 +239,6 @@
 
   <!-- Album Section Start -->
   <section id="album" align="center" class="bg-light-gray">
-
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -248,9 +246,7 @@
           <h2 class="section-heading">Album</h2>
         </div>
       </div>
-
       <div class="row">
-
         <!-- item start -->
         <a href="https://soundcloud.com/band0100/band0100-demo-ver-1">
           <div class="cd-case" id="case2">
@@ -278,14 +274,13 @@
           </div>
         </a>
         <!-- item End -->
-
       </div>
-
   </section>
   <!-- Team Section End -->
 
   <!-- About Section Start -->
   <section id="about" align="center">
+
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -293,6 +288,7 @@
           <h3 class="section-subheading text-muted">연혁</h3>
         </div>
       </div>
+
       <div class="row">
         <div class="col-sm-12 timeline-content">
           <ul class="timeline">
@@ -321,43 +317,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>2015.11.28</h4>
-                  <h4 class="subheading">집에왔다 Teaser 공개</h4>
-                </div>
-                <div class="timeline-body">
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-sm-12 timeline-content">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/profile.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2015.11.28</h4>
-                  <h4 class="subheading">괜찮아 Teaser 공개</h4>
-                </div>
-                <div class="timeline-body">
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-sm-12 timeline-content">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="img-circle img-responsive" src="img/profile.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2015.11.28</h4>
-                  <h4 class="subheading">고마워요 Teaser 공개</h4>
+                  <h4 class="subheading">집에왔다 Demo 공개</h4>
                 </div>
                 <div class="timeline-body">
                 </div>
@@ -416,8 +376,8 @@
       var position = new naver.maps.LatLng(37.8228710, 127.3513150);
       var map = new naver.maps.Map('map', {
         center: position,
-        draggable: false,
-        pinchZoom: false,
+        draggable: true,
+        pinchZoom: true,
         scrollWheel: false,
         keyboardShortcuts: false,
         disableDoubleTapZoom: false,
@@ -439,8 +399,6 @@
     </div>
   </footer>
 
-  <!-- jQuery CDN-->
-  <script src="https://code.jquery.com/jquery-3.2.0.js" integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ=" crossorigin="anonymous"></script>
   <!-- Plugin JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
