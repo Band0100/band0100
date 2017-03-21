@@ -1,5 +1,14 @@
 /* Design inspired by http://ruky1024.deviantart.com/art/Plastic-CD-Case-2-sizes-194440543 */
 
+.cd-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
 .cd-case {
   z-index 1;
   height: 206px;
